@@ -15,13 +15,13 @@
  The flask command is installed by Flask, not your application; it must be told where to find your application in order to use it. The FLASK_APP environment variable is used to specify how to load the application.
  
     Unix Bash (Linux, Mac, etc.):
-    $ export FLASK_APP=hello
-    $ flask run
+   ` $ export FLASK_APP=hello`
+    `$ flask run`
     
     Windows CMD:
-    > set FLASK_APP=hello
-    > flask run
+    `> set FLASK_APP=hello`
+    `> flask run`
     
     Windows PowerShell:
-    > $env:FLASK_APP = "hello"
-    > flask run
+    `> $env:FLASK_APP = "hello"`
+    `> flask run`
