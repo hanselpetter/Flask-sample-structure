@@ -25,3 +25,7 @@
     Windows PowerShell:
     `> $env:FLASK_APP = "hello"`
     `> flask run`
+
+# Python Version Manage
+
+https://www.freecodecamp.org/news/manage-multiple-python-versions-and-virtual-environments-venv-pyenv-pyvenv-a29fb00c296f/
