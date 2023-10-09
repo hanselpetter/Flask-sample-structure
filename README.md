@@ -25,3 +25,40 @@
     Windows PowerShell:
     `> $env:FLASK_APP = "hello"`
     `> flask run`
+
+# Python Version Manage
+# Install pyenv for python version manage
+`pip install pyenv-win`
+`pip install pyenv-win --target %USERPROFILE%\\.pyenv`
+`pyenv install --list`
+
+
+#Power Shell
+The easiest way to install pyenv-win is to run the following installation command in a PowerShell terminal:
+
+Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
+
+
+#pyenv-win commands
+   commands     List all available pyenv commands
+   local        Set or show the local application-specific Python version
+   global       Set or show the global Python version
+   shell        Set or show the shell-specific Python version
+   install      Install 1 or more versions of Python 
+   uninstall    Uninstall 1 or more versions of Python
+   update       Update the cached version DB
+   rehash       Rehash pyenv shims (run this after switching Python versions)
+   vname        Show the current Python version
+   version      Show the current Python version and its origin
+   version-name Show the current Python version
+   versions     List all Python versions available to pyenv
+   exec         Runs an executable by first preparing PATH so that the selected Python
+   which        Display the full path to an executable
+   whence       List all Python versions that contain the given executable
+
+#virtual environment creating
+
+pip install virtualenv-pyenv
+virtualenv -p 3.9.13 venv
+
+https://www.freecodecamp.org/news/manage-multiple-python-versions-and-virtual-environments-venv-pyenv-pyvenv-a29fb00c296f/
